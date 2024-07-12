@@ -1,0 +1,14 @@
+package jan01;
+import java.util.Scanner;
+public class counting {
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		int slap =1;
+		while(slap <= n) {
+		System.out.println(slap);
+		slap = slap+1;
+		}
+	}
+
+}

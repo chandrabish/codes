@@ -1,0 +1,12 @@
+package basic;
+
+public class cmax {
+	public static void main(String[] args) {
+		int[] arr = new int[5];
+		
+		
+	}
+	
+}
+	
+

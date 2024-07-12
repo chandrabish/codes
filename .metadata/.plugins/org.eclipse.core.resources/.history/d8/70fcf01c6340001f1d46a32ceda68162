@@ -1,0 +1,19 @@
+package jan01;
+
+public class gcd {
+	public static void main(String[] args) {
+		int a = 18;
+		int b = 34;
+		
+		int divisor = a;
+		int divident = b;
+		 while(divisor > 0) {
+			 int remainder = b%a;
+			 divident = divisor;
+			 divisor = remainder;
+			 System.out.println(divident); 
+		 }
+		 
+	}
+
+}
